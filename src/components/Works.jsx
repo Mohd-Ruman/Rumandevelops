@@ -9,7 +9,7 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({index, name, description, tags,
-image, source_code_Link}) => {
+image, source_code_link}) => {
   return(
     <motion.div 
     variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -23,7 +23,23 @@ image, source_code_Link}) => {
       sm:w-[360px] w-full'
       //continue from here 23 Jan MIDNIGHT
       >
+        <div className='relative w-full h-[230px]'>
+          <img src={image} alt="project_image"
+          className='w-full h-full object-cover rounded-2xl'/>
 
+          <div className='absolute inset-0 flex justify-end m-3 
+          card-img_hover'>
+            <div 
+            onClick={()=> window.open(source_code_link, "_blank")}
+            className='w-10 h-10 black-gradient rounded-full flex
+            justify-center items-center cursor pointer'>
+              <img src={github}
+              alt = "github"
+              className='w-1/2 h-1/2 object-contain'/>
+            </div>
+          </div>
+
+        </div>
       </Tilt>
     </motion.div>
   )
@@ -56,7 +72,8 @@ const Works = () => {
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index)=>(
           <ProjectCard key={`project-${index}`}
-          index={index}/>
+          index={index} {...project}/>
+          //Spread operation is crucially important here ...project
         ))}
       </div>
     </>
