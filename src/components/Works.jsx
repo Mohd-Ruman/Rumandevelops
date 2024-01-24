@@ -40,6 +40,22 @@ image, source_code_link}) => {
           </div>
 
         </div>
+
+        <div>
+          <h3 className='text-white text-[24px] font-bold'>
+            {name}</h3>
+          <p className='text-secondary mt-2 text-[14px]'>
+            {description}</p>
+        </div>
+
+        <div className='flex mt-4 gap-2 flex-wrap'>
+          {tags.map((tag, index)=>(
+            <p key={tag.name} 
+            className={`text-[14px] ${tag.color}`}>
+              {tag.name}</p>
+          ))}
+        </div>
+
       </Tilt>
     </motion.div>
   )
