@@ -11,7 +11,9 @@ import { slideIn } from '../utils/motion'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+    Hi this is where you can contact me
+    </>
   )
 }
 
