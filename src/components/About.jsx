@@ -45,8 +45,8 @@ const About = () => {
       className='mt-4 max-w-3xl text-secondary text-[17px] leading-[30px]'>
         I'm a skilled frontend developer that uses his graphic
         designing skills as a boost to create seamless and eye
-        melting visuals. I work on technologies like React, Git and Github,
-        Javascript, ASP.NET, C#, Entity core framework, SQL, NodeJS.
+        catching interfaces. I work with technologies like React, Git and Github,
+        Javascript, ASP.NET, C#, Entity core framework, SQL, NodeJS, Figma.
         </motion.p>
 
       <div className='flex gap-10 mt-20 flex-wrap'>

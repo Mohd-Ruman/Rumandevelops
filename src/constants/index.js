@@ -24,6 +24,9 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+
+  import sushiman from '../assets/sushiman.png';
+  import rumportfolio from '../assets/rumportfolio.png';
   
   export const navLinks = [
     {
@@ -46,15 +49,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "ASP.NET Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI / UX Designer",
       icon: creator,
     },
   ];
@@ -72,18 +75,18 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -92,10 +95,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -108,10 +111,10 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -197,6 +200,48 @@ import {
   ];
   
   const projects = [
+    {
+      name: "My 3d Portfolio",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Three JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: rumportfolio,
+      source_code_link: "https://github.com/Mohd-Ruman/react-portfolio-jsm3d",
+    },
+    {
+      name: "Sushiman",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "HTML 5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS 3",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sushiman,
+      source_code_link: "https://github.com/Mohd-Ruman/sushiman",
+    },
     {
       name: "Car Rent",
       description:

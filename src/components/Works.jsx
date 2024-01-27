@@ -76,12 +76,12 @@ const Works = () => {
           max-w-3xl leading-[30px]'
         >
           Following projects showcase my skills and
-          experience through real-world examples of
+          through real-world examples of
           my work. Each project is briefly described
-          with links to code repositories and live 
-          demos in it. It reflects my ability to solve
+          with links to code repositories. It reflects my ability to 
+          learn frequently, solve
           complex problems, work with different technologies
-          and manage projects effectively
+          and manage projects effectively.
         </motion.p>
       </div>
 
