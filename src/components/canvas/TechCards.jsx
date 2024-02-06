@@ -7,7 +7,7 @@ const TechCards = ({technology, index}) => {
     <div className="bg-tertiary w-[150px] h-[150px]
     sm:w-[170px] sm:h-[170px]
     flex items-center justify-center rounded-3xl
-    flex-col">
+    flex-col border-white">
         <img src={technology.icon}
         className="w-[70px] h-[70px]
         object-contain"/>

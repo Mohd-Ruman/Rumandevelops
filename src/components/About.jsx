@@ -12,7 +12,7 @@ const ServiceCard = ({index, title, icon}) => {
   return(
     <Tilt className='xs:w-[250px] w-full'>
       <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-cardSS'>
+      className='w-full bg-gradient-to-r from-cyan-400 to-purple-600 p-[1px] rounded-[20px] shadow-cardSS'>
 
         <div options={{
           max : 45,
@@ -24,7 +24,7 @@ const ServiceCard = ({index, title, icon}) => {
         >
           <img src={icon} alt="icon"
           className="w-16 h-16 object-contain"/>
-          <h3 className='font-bold text-white text-[20px] text-center'>
+          <h3 className='font-bold text-white uppercase text-[20px] text-center'>
             {title}
           </h3>
         </div>

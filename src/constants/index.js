@@ -23,10 +23,16 @@ import {
     jobit,
     tripguide,
     threejs,
+    codebracket,
+    dotnet,
+    reactsvg,
+    uiux,
+
   } from "../assets";
 
   import sushiman from '../assets/sushiman.png';
   import rumportfolio from '../assets/rumportfolio.png';
+  
   
   export const navLinks = [
     {
@@ -46,19 +52,19 @@ import {
   const services = [
     {
       title: "Web Developer",
-      icon: web,
+      icon: codebracket,
     },
     {
       title: "React Developer",
-      icon: mobile,
+      icon: reactsvg,
     },
     {
       title: "ASP.NET Developer",
-      icon: backend,
+      icon: dotnet,
     },
     {
       title: "UI / UX Designer",
-      icon: creator,
+      icon: uiux,
     },
   ];
   

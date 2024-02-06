@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import codebracket from "./tech/codebracket.svg";
+import dotnet from "./tech/dotnet.svg";
+import reactsvg from "./tech/reactsvg.svg";
+import uiux from "./tech/uiux.svg";
+
 export {
   logo,
   backend,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  codebracket,
+  dotnet,
+  reactsvg,
+  uiux,
 };
