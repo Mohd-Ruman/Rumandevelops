@@ -27,6 +27,8 @@ import {
     dotnet,
     reactsvg,
     uiux,
+    nextjs,
+    metaverses,
 
   } from "../assets";
 
@@ -89,6 +91,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
+    {
+      name: "Next JS",
+      icon: nextjs,
+    },
     // {
     //   name: "Redux Toolkit",
     //   icon: redux,
@@ -125,49 +131,49 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "HTML | CSS | Javascript",
+      company_name: "",
+      icon: codebracket,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      // date: "2008 - 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created a sushi restaurant website",
+        "Used AOT animation library to create window triggered animations",
+        "Used best css practices to maintain clean css code with variables",
+        "Created Restfull API projects with fetch function using async & await"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Git & Github",
+      company_name: "",
+      icon: git,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      // date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Push, Pull, and maintain repositories",
+        "Understanding the structure of branches for team collaboration",
+        "Implementing good commit practices to ensure better and effective project tracking.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "React JS",
+      // company_name: "Shopify",
+      icon: reactjs,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Using tailwind css to quickly develope dynamic and responsive react interfaces",
+        "Using figma to create prototypes for quick overview of development process",
+        "Using libraries for implementing amazing user interface development",
+        "Worked with libraries like : ThreeJS, motionJS"
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      title: "Next JS",
+      // company_name: "By Vercel",
+      icon: nextjs,
+      iconBg: "#fff",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -209,7 +215,7 @@ import {
     {
       name: "My 3d Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "My own portfolio that is developed with the use of 3d elements with threeJS, it is an accurate display for my skills and learning path, and what i am going to offer to my clients.",
       tags: [
         {
           name: "React JS",
@@ -230,7 +236,7 @@ import {
     {
       name: "Sushiman",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Website for an authentic japanese sushi restaurant, developed with welcoming interface and guided menu, mouth watering sushi illustrations and animated interface using AOT library.",
       tags: [
         {
           name: "HTML 5",
@@ -247,6 +253,27 @@ import {
       ],
       image: sushiman,
       source_code_link: "https://github.com/Mohd-Ruman/sushiman",
+    },
+    {
+      name: "Metaverse Concept",
+      description:
+        "Web-based platform that allows users to take a look into the world of metaverse, includes amazing interface and implementation of libraries for animated elements",
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Framer motion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: metaverses,
+      source_code_link: "https://github.com/Mohd-Ruman/metaversus-nextjs",
     },
     // {
     //   name: "Car Rent",

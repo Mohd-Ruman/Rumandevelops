@@ -45,7 +45,7 @@ const About = () => {
       className='mt-4 max-w-3xl text-secondary text-[17px] leading-[30px]'>
         I'm a skilled frontend developer that uses his graphic
         designing skills as a boost to create seamless and eye
-        catching interfaces. I work with technologies like React, Git and Github,
+        catching interfaces. I work with technologies like React, Git & Github,
         Javascript, ASP.NET, C#, Entity core framework, SQL, NodeJS, Figma.
         </motion.p>
 
