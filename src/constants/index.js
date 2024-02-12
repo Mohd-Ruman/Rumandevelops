@@ -160,26 +160,25 @@ import {
       // company_name: "Shopify",
       icon: reactjs,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      // date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Using tailwind css to quickly develope dynamic and responsive react interfaces",
+        "Using Vite and tailwind css to quickly develope dynamic and responsive react interfaces",
         "Using figma to create prototypes for quick overview of development process",
         "Using libraries for implementing amazing user interface development",
         "Worked with libraries like : ThreeJS, motionJS"
       ],
     },
     {
-      title: "Next JS",
+      title: "Next JS & Vercel",
       // company_name: "By Vercel",
       icon: nextjs,
       iconBg: "#fff",
-      date: "Jan 2023 - Present",
+      // date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using React.js with Next Framework.",
+        "Use Vercel integrations for production deployement",
+        "Vercel speed insight integrations to monitor sight performance"
       ],
     },
   ];
