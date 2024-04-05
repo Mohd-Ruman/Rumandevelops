@@ -131,22 +131,24 @@ import {
   
   const experiences = [
     {
-      title: "HTML | CSS | Javascript",
-      company_name: "",
-      icon: codebracket,
+      title: "Freelance web developer",
+      company_name: "Al-Ma'arif academy",
+      techstack: "React JS, Tailwind, Figma, Vercel",
+      icon: reactjs,
       iconBg: "#383E56",
-      // date: "2008 - 2022",
+      date: "",
       points: [
-        "Created a sushi restaurant website",
-        "Used AOT animation library to create window triggered animations",
-        "Used best css practices to maintain clean css code with variables",
-        "Created Restfull API projects with fetch function using async & await"
+        "A scalable business website for an online academy that teaches Arabic language",
+        "Designed complete prototype in Figma and coded with concepts like HOC and reusable components",
+        "Used Tailwind to code faster and a responsive user interface for exact prototype results",
+        "Implemented color schemes from tailwind and triggered animations with framer motion"
       ],
     },
     {
-      title: "Git & Github",
-      company_name: "",
-      icon: git,
+      title: "Freelance web developer",
+      company_name: " RK Constructions",
+      techstack: "React JS, Tailwind, Figma",
+      icon: reactjs,
       iconBg: "#E6DEDD",
       // date: "Jan 2021 - Feb 2022",
       points: [
@@ -156,29 +158,33 @@ import {
       ],
     },
     {
-      title: "React JS",
-      // company_name: "Shopify",
+      title: "Web development Project",
+      company_name: "CryptoRum",
+      techstack: "React JS | Redux Toolkit | Node JS | Ant Design | Rapid Api",
       icon: reactjs,
       iconBg: "#383E56",
       // date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Using Vite and tailwind css to quickly develope dynamic and responsive react interfaces",
-        "Using figma to create prototypes for quick overview of development process",
-        "Using libraries for implementing amazing user interface development",
-        "Worked with libraries like : ThreeJS, motionJS"
+        "A cryptocurrency website that fetches and displays 100 crypto currencies data and recent crypto news.",
+        "Enhanced user experience by implementing search feature and 10 crytpto details on home.",
+        "Ant Design for faster and minimal interface development.",
+        "Redux toolkit for maintaining api fetched data by creating a data store for data and state maintenance resulting in efficient state sharing throughout the website.",
+        ""
       ],
     },
     {
-      title: "Next JS & Vercel",
-      // company_name: "By Vercel",
-      icon: nextjs,
+      title: "3d Portfolio Website",
+      company_name: "RumanDevelops",
+      techstack: "React JS, Three JS, Tailwind, Vercel",
+      icon: reactjs,
       iconBg: "#fff",
       // date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js with Next Framework.",
-        "Use Vercel integrations for production deployement",
-        "Vercel speed insight integrations to monitor sight performance"
+        "Developed a 3d responsive website showcasing personal projects, skills, and experiences.",
+        "Used Vercel Hosting and Vercel speed insights to minimize the loading time and create a smoother experience for visitors resulting in a conversion of loading time from 9.38 ms to 3.89 ms.",
+        "Implemented 3D models using Three JS, React three drei library resulting in an amazing contact page.",
+        "Implemented smooth animations and transitions to enhance user experience. Using Motion JS library.",
+        "Created a contact form for receiving emails by implementing Email JS library."
       ],
     },
   ];
