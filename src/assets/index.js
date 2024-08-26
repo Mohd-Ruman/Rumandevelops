@@ -29,7 +29,6 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
 import codebracket from "./tech/codebracket.svg";
 import dotnet from "./tech/dotnet.svg";
 import reactsvg from "./tech/reactsvg.svg";
@@ -37,7 +36,14 @@ import uiux from "./tech/uiux.svg";
 import nextjs from "./nextjs.svg";
 import metaverses from './metaverses.png';
 
+import python from "./tech/python.png";
+import expressjs from "./tech/expressjs.png";
+import java from "./tech/java.png";
+
 export {
+  java,
+  python,
+  expressjs,
   logo,
   backend,
   creator,

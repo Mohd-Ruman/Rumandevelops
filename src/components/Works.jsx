@@ -9,7 +9,7 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({index, name, description, tags,
-image, source_code_link}) => {
+image, source_code_link, live_link}) => {
   return(
     <motion.div 
     variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -55,7 +55,11 @@ image, source_code_link}) => {
               {tag.name}</p>
           ))}
         </div>
-
+        
+        <div className='mt-4'>
+          <a className='text-[14px] px-4 py-2 rounded-full bg-blue-950' href={live_link}>See Live</a>
+        </div>
+        
       </Tilt>
     </motion.div>
   )

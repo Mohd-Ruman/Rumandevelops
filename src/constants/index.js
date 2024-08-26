@@ -29,11 +29,16 @@ import {
     uiux,
     nextjs,
     metaverses,
+    python,
+    expressjs,
+    java,
 
   } from "../assets";
 
   import sushiman from '../assets/sushiman.png';
   import rumportfolio from '../assets/rumportfolio.png';
+  import Cryptorum from '../assets/Cryptorum-ss.png';
+  import Almarif from '../assets/Almarif-ss.png';
   
   
   export const navLinks = [
@@ -53,19 +58,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "M.E.R.N Stack",
       icon: codebracket,
     },
     {
-      title: "React Developer",
-      icon: reactsvg,
+      title: "NEXT JS",
+      icon: nextjs,
     },
     {
-      title: "ASP.NET Developer",
+      title: "ASP.NET",
       icon: dotnet,
     },
     {
-      title: "UI / UX Designer",
+      title: "UI / UX Design",
       icon: uiux,
     },
   ];
@@ -88,6 +93,14 @@ import {
     //   icon: typescript,
     // },
     {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
@@ -107,10 +120,14 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+    {
+      name: "Express JS",
+      icon: expressjs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     {
       name: "Three JS",
       icon: threejs,
@@ -131,7 +148,7 @@ import {
   
   const experiences = [
     {
-      title: "Freelance web developer",
+      title: "Freelance Project",
       company_name: "Al-Ma'arif academy",
       techstack: "React JS, Tailwind, Figma, Vercel",
       icon: reactjs,
@@ -145,20 +162,7 @@ import {
       ],
     },
     {
-      title: "Freelance web developer",
-      company_name: " RK Constructions",
-      techstack: "React JS, Tailwind, Figma",
-      icon: reactjs,
-      iconBg: "#E6DEDD",
-      // date: "Jan 2021 - Feb 2022",
-      points: [
-        "Push, Pull, and maintain repositories",
-        "Understanding the structure of branches for team collaboration",
-        "Implementing good commit practices to ensure better and effective project tracking.",
-      ],
-    },
-    {
-      title: "Web development Project",
+      title: "API Project",
       company_name: "CryptoRum",
       techstack: "React JS | Redux Toolkit | Node JS | Ant Design | Rapid Api",
       icon: reactjs,
@@ -169,7 +173,6 @@ import {
         "Enhanced user experience by implementing search feature and 10 crytpto details on home.",
         "Ant Design for faster and minimal interface development.",
         "Redux toolkit for maintaining api fetched data by creating a data store for data and state maintenance resulting in efficient state sharing throughout the website.",
-        ""
       ],
     },
     {
@@ -237,6 +240,7 @@ import {
       ],
       image: rumportfolio,
       source_code_link: "https://github.com/Mohd-Ruman/react-portfolio-jsm3d",
+      live_link: "https://www.rumandevelops.com/",
     },
     {
       name: "Sushiman",
@@ -258,6 +262,7 @@ import {
       ],
       image: sushiman,
       source_code_link: "https://github.com/Mohd-Ruman/sushiman",
+      live_link: "https://sushiman-chi.vercel.app/",
     },
     {
       name: "Metaverse Concept",
@@ -279,28 +284,52 @@ import {
       ],
       image: metaverses,
       source_code_link: "https://github.com/Mohd-Ruman/metaversus-nextjs",
+      live_link: "https://metaversus-opal.vercel.app/",
     },
-    // {
-    //   name: "Car Rent",
-    //   description:
-    //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "mongodb",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "tailwind",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: carrent,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "CryptoRum",
+      description:
+        "A cryptocurrency website that fetches and displays 100 crypto currencies data, providing a convenient and efficient solution for crypto lookouts and updates.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Ant Design",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Cryptorum,
+      source_code_link: "https://github.com/Mohd-Ruman/cryptorum",
+      live_link: "https://cryptorum.vercel.app/",
+    },
+    {
+      name: "Al-Ma'rif",
+      description:
+        "A scalable introductory and promotional website for an online academy that teaches Arabic language.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Figma",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Almarif,
+      source_code_link: "https://github.com/Mohd-Ruman/cryptorum",
+      live_link: "https://almaarifacademy.vercel.app/",
+    },
     // {
     //   name: "Job IT",
     //   description:
